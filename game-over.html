@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Over</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+    :root {
+      --bg: #0f1118;
+      --accent: #f5e44b;
+    }
+
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .game-over-text {
+      font-family: "Pixelify Sans", sans-serif;
+      font-size: clamp(72px, 18vw, 200px);
+      color: var(--accent);
+      text-align: center;
+      text-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
+      line-height: 0.9;
+      white-space: pre-line;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-over-text">GAME OVER
+IT'S POINTLESS</div>
+</body>
+</html>
